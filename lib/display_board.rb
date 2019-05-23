@@ -4,7 +4,8 @@
 board_array = []
 
 def display_board
-  puts "   |   |   "
+  
+  puts " #{board_array[0]} |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
