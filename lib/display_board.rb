@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-board_array = []
+board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(arr)
   
