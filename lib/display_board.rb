@@ -3,11 +3,13 @@
 
 board_array = []
 
-def display_board
+def display_board(arr)
   
-  puts " #{board_array[0]} |   |   "
+  puts " #{arr[0]} |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
 end
+
+display_board(board_array)
